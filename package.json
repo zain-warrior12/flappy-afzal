@@ -1,0 +1,17 @@
+{
+  "name": "flappy-bird-game",
+  "version": "1.0.0",
+  "description": "Flappy Bird HTML5 Game",
+  "main": "index.html",
+  "scripts": {
+    "build-cordova": "cordova build android",
+    "serve": "npx http-server . -p 8080"
+  },
+  "keywords": [
+    "game",
+    "flappy-bird",
+    "html5"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

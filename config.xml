@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.flappybird.game" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Flappy Bird</name>
+    <description>
+        A fun Flappy Bird game
+    </description>
+    <author email="your@email.com" href="http://yourwebsite.com">
+        Your Name
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="true" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="MC.png" />
+        <icon density="mdpi" src="MC.png" />
+        <icon density="hdpi" src="MC.png" />
+        <icon density="xhdpi" src="MC.png" />
+        <icon density="xxhdpi" src="MC.png" />
+        <icon density="xxxhdpi" src="MC.png" />
+    </platform>
+</widget>
